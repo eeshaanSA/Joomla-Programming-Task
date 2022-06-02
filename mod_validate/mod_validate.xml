@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>mod_validate</name>
+    <description>This is a simple email validation Module</description>
+    <version>4.0.0</version>
+    <author>Eeshaan Sawant</author>
+    <files>
+      <filename>mod_validate.xml</filename>
+      <filename module="mod_validate">mod_validate.php</filename>
+      <filename>index.html</filename>  
+      <filename>helper.php</filename>
+      <folder>tmpl</folder>
+    </files>
+    <config>
+    </config>
+</extension>
